@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Оплата</title>
+    <link rel="stylesheet" href="css/jquery.fs.selecter.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.fs.selecter.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+                                            <!-- HEADER START -->
+
+
+    <header class="header">
+                              <!-- buttonMenu -->
+      <div class="buttonMenu">
+        <span class="lineButton"></span>
+      </div>
+
+      <div class="bgButtonMenu">
+        <div class='minMenu'>
+        <ul>
+          <li><a class='minMenuString' href="#"> Главная </a></li>
+          <li><a class='minMenuString' href="#"> Оплата </a></li>
+          <li><a class='minMenuString' href="#"> Новости </a></li>
+          <li><a class='minMenuString' href="#"> Личный кабинет </a></li>
+          <li><a class='minMenuString' href="#"> Выйти </a></li>
+        </ul>
+        </div>
+      </div>
+                              <!-- logo -->
+      <div class="logo"> <a class="logoLink" href="#"> <span class="logoPartOne"> chulacov </span> <span class="logoPartTwo"> ru </span> </a> </div>
+                              <!-- title -->
+      <div class="title">
+        <article class="titleArticle">
+          <div class="logoMobile"> <a class="linkLogoMobile" href=""> chulacov </a> </div>
+          <h1>Оплата услуг</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo animi ex in praesentium, doloremque, placeat! </p>
+        </article>
+      </div>
+    </header>
+                                              <!-- HEADER END -->
+
+    <div class="container">
+                                              <!-- SIDEBAR START -->
+      <nav class="sidebar">
+        <ul class="menu">
+          <a class="linkMenuItem" href="#"> <li class="menuItem">Главная</li> </a>
+          <a class="linkMenuItem" href="#"> <li class="menuItem">Оплата</li> </a>
+          <a class="linkMenuItem" href="#"> <li class="menuItem">Новости</li> </a>
+          <a class="linkMenuItem" href="#"> <li class="menuItem">Личный кабинет</li> </a>
+          <a class="linkMenuItem" href="#"> <li class="menuItem">Выйти</li> </a>
+        </ul>
+      </nav>
+                                              <!-- SIDEBAR END -->
+        <div class="pay">
+                                              <!-- MAIN START -->
+          <main class="content">
+            <article class="informationOnPay">
+              <p>Информация по оплате:</p>
+              <p> Номер счёта: <span class="informationNumber informationString">87123658716587</span> </p>
+              <p> Сумма платежа: <span class="informationCoast informationString">100 руб.</span> </p>
+            </article>
+            <div class="card">
+              <form class="formForCard" action="#" method="post">
+                <h2 class="headCard">Данные банковской карты</h2>
+                <div class="faceCard sideCard">
+                  <p class="numberCard">Номер карты</p>
+                  <div class="boxForNumbersCard">
+                    <input type="text" name="onePartNumbersCard" maxlength="4" placeholder="1234" required class="boxItem">
+                    <input type="text" name="twoPartNumbersCard" maxlength="4" placeholder="1234" required class="boxItem">
+                    <input type="text" name="threePartNumbersCard" maxlength="4" placeholder="1234" required class="boxItem">
+                    <input type="text" name="fourPartNumbersCard" maxlength="4" placeholder="1234" required class="boxItem">
+                  </div>
+                  <p class="validityPeriod">Срок действия</p>
+                  <div class="date">
+                    <select name="month" class="validityPeriodCard">
+                      <option value="1">01</option>
+                      <option value="2">02</option>
+                      <option value="3">03</option>
+                      <option value="4">04</option>
+                      <option value="5">05</option>
+                      <option value="6">06</option>
+                      <option value="7">07</option>
+                      <option value="8">08</option>
+                      <option value="9">09</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                    </select>
+
+                    <select name="years" class="validityPeriodCard">
+                      <option value="2018">2018</option>
+                      <option value="2019">2019</option>
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                      <option value="2025">2025</option>
+                      <option value="2026">2026</option>
+                      <option value="2027">2027</option>
+                      <option value="2028">2028</option>
+                    </select>
+                  </div>
+                  <input type="text" required name="name" maxlength="35" placeholder="Фамилия Имя" class="cardHolder">
+                </div>
+                <div class="backCard sideCard">
+                  <div class="backCardLine"></div>
+                  <div class="cvcCode">
+                    <p class="cvcCodeText">Код CVV2 / CVC2</p>
+                    <input type="text" maxlength="3" placeholder="123" required class="cvcCodeInput" name="cvcCode" value="">
+                    <div class="question">
+                      ?
+                    </div>
+                    <p class="helpText">cvc код - это трёхзначный код на обратной стороне карты </p>
+                  </div>
+                </div>
+                <button class="buttonForSubmitForm">Оплатить</button>
+              </form>
+            </div>
+          </main>
+                                              <!-- MAIN END -->
+                                          <!-- ASIDE and FOOTER -->
+          <aside class="textUnderContent">
+            <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, iure.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nam, quae neque!</p>
+            <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fugit quisquam, ratione et illum. Totam est in modi, odit, illo iste perferendis quo quidem nostrum dolores omnis eligendi consequatur excepturi tempore nam voluptatem magni eveniet fugiat deserunt, voluptates qui, odio ipsum. Similique sapiente pariatur quae fugiat, libero eius consectetur. Omnis, dolores tempore fuga nisi quas quisquam fugiat et. Aperiam repudiandae ab quam modi facilis blanditiis aliquam, consequuntur obcaecati ea ex molestiae mollitia sequi pariatur deleniti, ad nihil maiores doloremque quibusdam.</article>
+          </aside>
+        </div>
+    </div>
+    <footer class="footer">&copy CHULACOV 2018</footer>
+  </body>
+</html>
